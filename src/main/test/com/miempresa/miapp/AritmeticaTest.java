@@ -26,6 +26,12 @@ class AritmeticaTest {
 		double resultado = Aritmetica.multiplicar(3, 3);
 		assertEquals(9, resultado);
 	}
+	
+	@Test
+	void testDividir() {
+		double resultado = Aritmetica.divir(10, 2);
+		assertEquals(5, resultado);
+	}
 
 	
 }
