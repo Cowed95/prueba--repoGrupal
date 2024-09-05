@@ -13,5 +13,11 @@ class AritmeticaTest {
 		double resultado = Aritmetica.sumar(10, 5);
 		assertEquals(15, resultado);
 	}
+	
+	@Test
+	void testRestar() {
+		double resultado = Aritmetica.restar(10, 5);
+		assertEquals(5, resultado);
+	}
 
 }
