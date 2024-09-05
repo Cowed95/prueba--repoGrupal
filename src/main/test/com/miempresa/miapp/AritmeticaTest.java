@@ -18,6 +18,15 @@ class AritmeticaTest {
 	void testRestar() {
 		double resultado = Aritmetica.restar(10, 5);
 		assertEquals(5, resultado);
+		
+	}
+	
+	@Test
+	void testMultiplicar() {
+		double resultado = Aritmetica.multiplicar(3, 3);
+		assertEquals(9, resultado);
 	}
 
+	
 }
+
